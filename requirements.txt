@@ -1,0 +1,8 @@
+# Use Python 3.11 or 3.12 (PyTorch, which Ultralytics needs, may lag behind newer Python versions).
+ultralytics>=8.3.0      # YOLO11 + tracking; also installs PyTorch and OpenCV
+lapx>=0.5.5             # tracker dependency (otherwise Ultralytics tries to install it at run time)
+opencv-python>=4.8.0
+numpy>=1.24
+pyserial>=3.5
+matplotlib>=3.7         # only for the optional PNG chart in generate_report.py
+pytest>=7.4             # only for running the unit tests

@@ -1,0 +1,27 @@
+# Virtual environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+__MACOSX/
+
+# Model weights (downloaded automatically on first run)
+*.pt
+*.onnx
+
+# Recorded data / media - never commit these
+data/*.csv
+data/*.png
+*.mp4
+*.mov
+*.avi
+*.jpg
+*.jpeg
+
+# Secrets (this project needs none, but just in case)
+.env
+secrets.*
+*.key
